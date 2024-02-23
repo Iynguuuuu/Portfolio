@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from '@/Components/Navbar'
 import MobileNav from '@/Components/MobileNav';
 import Hero from '@/Components/Hero';
+import About from '@/Components/About';
 
 const HomePage = () => {
 
@@ -12,11 +13,17 @@ const HomePage = () => {
   return (
     <div className="overflow-x-hidden">
       <div>
-        {/* Navabr */}
+      
         <MobileNav nav={nav} closeNav={closeNav} />
+        
         <Navbar openNav={openNav} />
-        {/* Hero Section */}
+  
         <Hero />
+
+        <div className='relative z-[30]'>
+          <About />
+        </div>
+
       </div>
     </div>
   )
