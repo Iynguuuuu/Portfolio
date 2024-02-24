@@ -3,6 +3,9 @@ import Navbar from '@/Components/Navbar'
 import MobileNav from '@/Components/MobileNav';
 import Hero from '@/Components/Hero';
 import About from '@/Components/About';
+import Services from '@/Components/Services';
+import Skills from '@/Components/Skills';
+
 
 const HomePage = () => {
 
@@ -13,15 +16,18 @@ const HomePage = () => {
   return (
     <div className="overflow-x-hidden">
       <div>
-      
+
         <MobileNav nav={nav} closeNav={closeNav} />
-        
+
         <Navbar openNav={openNav} />
-  
+
         <Hero />
 
         <div className='relative z-[30]'>
           <About />
+          <Services />
+          <Skills />
+
         </div>
 
       </div>
