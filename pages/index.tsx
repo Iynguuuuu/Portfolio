@@ -5,6 +5,7 @@ import Hero from '@/Components/Hero';
 import About from '@/Components/About';
 import Services from '@/Components/Services';
 import Skills from '@/Components/Skills';
+import Projects from '@/Components/Projects';
 
 
 const HomePage = () => {
@@ -24,10 +25,10 @@ const HomePage = () => {
         <Hero />
 
         <div className='relative z-[30]'>
-          <About />
-          <Services />
+          {/* <About /> */}
           <Skills />
-
+          <Projects />
+          <Services />
         </div>
 
       </div>

@@ -26,7 +26,8 @@ const Hero = () => {
                     </p>
                     <div className='mt-[1rem] flex items-stretch space-x-5  '>
                         <a href="https://github.com/Iynguuuuu"> <IoLogoGithub className='w-[3rem] h-[3rem] text-white ' /></a>
-                        <a href="https://lk.linkedin.com/in/iynkaran-pavanantham-b54991263"> <FaLinkedin className='w-[3rem] h-[3rem] text-white' /></a>
+                        <a href="https://lk.linkedin.com/in/iynkaran-pavanantham-b54991263"> 
+                         <FaLinkedin className='w-[3rem] h-[3rem] text-white' /></a>
                     </div>
                     <div className='mt-[2rem] flex-col space-x-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-6'>
                         <button className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] 
@@ -39,7 +40,8 @@ const Hero = () => {
 
                 </div>
                 <div className='w-[400px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[400px]'>
-                    <Image src="/images/me.jpg" alt="user" layout="fill" className="object-cover rounded-full" />
+                    <Image src="/images/Pro9.jpg" alt="user" layout="fill" className="object-cover rounded-full 
+                      outline-cyan-500 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]" />
                 </div>
             </div>
         </div>
