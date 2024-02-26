@@ -11,7 +11,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <div className='h-[87.5vh] bg-[#0f141c]   mt-[12vh]  bg-cover bg-center'> {/*bg-[url(/images/bg.jpg)]*/}
+        <div className='h-[87.5vh] bg-[#090f18]   mt-[12vh]  bg-cover bg-center'> {/*bg-[url(/images/bg.jpg)]*/}
             <Particle />
             <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
                 <div>
@@ -26,12 +26,12 @@ const Hero = () => {
                     </p>
                     <div className='mt-[1rem] flex items-stretch space-x-5  '>
                         <a href="https://github.com/Iynguuuuu"> <IoLogoGithub className='w-[3rem] h-[3rem] text-white ' /></a>
-                        <a href="https://lk.linkedin.com/in/iynkaran-pavanantham-b54991263"> 
-                         <FaLinkedin className='w-[3rem] h-[3rem] text-white' /></a>
+                        <a href="https://lk.linkedin.com/in/iynkaran-pavanantham-b54991263">
+                            <FaLinkedin className='w-[3rem] h-[3rem] text-white' /></a>
                     </div>
                     <div className='mt-[2rem] flex-col space-x-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-6'>
                         <button className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] 
-                                            text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2 '>
+                                            text-[18px] font-bold uppercase bg-violet-300  text-black flex items-center space-x-2 '>
                             <p>Download CV</p>
                             <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
                         </button>
