@@ -11,11 +11,11 @@ const Projects = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] 
                             mx-auto items-center gap-[3rem] mt-4rem text-white pt-[3rem] '>
 
-                <div>
+                <div data-aos="fade-up">
                     <div className='text-center p-[1rem]'>
 
                         <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
-                                w-[400px] h-[200px] md:h-[300px]'>
+                                w-[400px] h-[200px] md:h-[300px]  '>
                             <Image src="/images/P2.jpg" alt="Portfolio" layout='fill' className='object-contain fixed' />
                         </div>
                         <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem]'>
@@ -30,7 +30,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div>
+                <div data-aos="fade-up" data-aos-delay="300">
                     <div className='text-center p-[1rem]'>
                         <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
                                 w-[400px] h-[200px] md:h-[300px]'>
@@ -47,7 +47,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div>
+                <div data-aos="fade-up" data-aos-delay="400">
                     <div className='text-center p-[1rem]'>
 
                         <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
@@ -65,7 +65,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div>
+                <div data-aos="fade-up" data-aos-delay="500">
                     <div className='text-center p-[1rem]'>
                         <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
                                 w-[400px] h-[200px] md:h-[300px]'>
