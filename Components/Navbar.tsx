@@ -13,16 +13,14 @@ const Navbar = ({ openNav }: Props) => {
                 <h1 className='flex-[0.6]  text-violet-300 text-[60px] font-bold'>
                     <RiCodeSSlashFill />
                 </h1>
-                <div className='nav-link'>Home</div>
+                <div className='nav-link'>HOME</div>
                 <div className='nav-link'>SKILLS</div>
                 <div className='nav-link'>PROJECTS</div>
                 <div className='nav-link'>SERVICES</div>
                 <div className='nav-link'>CONTACT</div>
-
                 <div onClick={openNav}>
                     <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300' />
                 </div>
-
             </div>
         </div>
     )
