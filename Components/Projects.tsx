@@ -15,10 +15,10 @@ const Projects = () => {
                     <div className='text-center p-[1rem]'>
 
                         <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
-                                w-[400px] h-[200px] md:h-[300px]  '>
+                                w-[300px] h-[200px] md:h-[300px] mx-auto '>
                             <Image src="/images/P2.jpg" alt="Portfolio" layout='fill' className='object-contain fixed' />
                         </div>
-                        <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem]'>
+                        <h1 className='text-[20px] mt:text-[10px] mt-[5px] mb-[5px]'>
                             Marketing Website <br /> Mar 2024
                         </h1>
                         <p className='text-[15px] text-[#d3d2d2] font-normal opacity-70'>
@@ -33,10 +33,10 @@ const Projects = () => {
                 <div data-aos="fade-up" data-aos-delay="300">
                     <div className='text-center p-[1rem]'>
                         <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
-                                w-[400px] h-[200px] md:h-[300px]'>
+                                w-[300px] h-[200px] md:h-[300px] mx-auto '>
                             <Image src="/images/P1.jpg" alt="Portfolio" layout='fill' className='object-contain fixed' />
                         </div>
-                        <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem]'>
+                        <h1 className='text-[20px] mt:text-[10px] mt-[5px] mb-[5px]'>
                             Portfolio <br /> Feb 2024
                         </h1>
                         <p className='text-[15px] text-[#d3d2d2] font-normal opacity-70'>
@@ -51,10 +51,10 @@ const Projects = () => {
                     <div className='text-center p-[1rem]'>
 
                         <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
-                                w-[400px] h-[200px] md:h-[300px]'>
+                                w-[300px] h-[200px] md:h-[300px] mx-auto '>
                             <Image src="/images/P2.jpg" alt="Portfolio" layout='fill' className='object-contain fixed' />
                         </div>
-                        <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem]'>
+                        <h1 className='text-[20px] mt:text-[10px] mt-[5px] mb-[5px]'>
                             Login Page <br /> Jan 2024
                         </h1>
                         <p className='text-[15px] text-[#d3d2d2] font-normal opacity-70'>
@@ -68,10 +68,10 @@ const Projects = () => {
                 <div data-aos="fade-up" data-aos-delay="500">
                     <div className='text-center p-[1rem]'>
                         <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
-                                w-[400px] h-[200px] md:h-[300px]'>
+                                w-[300px] h-[200px] md:h-[300px] mx-auto '>
                             <Image src="/images/P4.jpg" alt="Portfolio" layout='fill' className='object-contain fixed' />
                         </div>
-                        <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem]'>
+                        <h1 className='text-[20px] mt:text-[10px] mt-[5px] mb-[5px]'>
                             Home Page & Feedback Page <br /> Jul 2023
                         </h1>
                         <p className='text-[15px] text-[#d3d2d2] font-normal opacity-70'>
