@@ -33,7 +33,7 @@ const Skills1 = () => {
                     </div>
                 </div>
 
-                <div data-aos="zoom-in" data-aos-delay="300">
+                <div data-aos="fade-right" data-aos-delay="100">
                     <div className='bg-[#16243e]  hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <FaCss3Alt className='w-[4rem] h-[4.5rem] mx-auto text-blue-500' />
@@ -44,7 +44,7 @@ const Skills1 = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-left" data-aos-delay="500">
+                <div data-aos="fade-right" data-aos-delay="200">
                     <div className='bg-[#16243e]  hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <IoLogoJavascript className='w-[4rem] h-[4.5rem] mx-auto text-yellow-400' />
@@ -55,7 +55,7 @@ const Skills1 = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-right">
+                <div data-aos="fade-right" data-aos-delay="300">
                     <div className='bg-[#16243e] hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <FaJava className='w-[4rem] h-[4.5rem] mx-auto text-blue-800' />
@@ -66,7 +66,7 @@ const Skills1 = () => {
                     </div>
                 </div>
 
-                <div data-aos="zoom-in" data-aos-delay="300">
+                <div data-aos="fade-right" data-aos-delay="400">
                     <div className='bg-[#16243e]  hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <FaPython className='w-[4rem] h-[4.5rem] mx-auto text-[#d3fae8]' />
@@ -88,7 +88,7 @@ const Skills1 = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-left" data-aos-delay="500">
+                <div data-aos="fade-left" data-aos-delay="600">
                     <div className='bg-[#16243e]  hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <FaReact className='w-[4rem] h-[4.5rem] mx-auto text-cyan-400' />
@@ -100,7 +100,7 @@ const Skills1 = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-left" data-aos-delay="500">
+                <div data-aos="fade-left" data-aos-delay="700">
                     <div className='bg-[#16243e]  hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <SiTailwindcss className='w-[4rem] h-[4.5rem] mx-auto text-blue-500' />
@@ -111,7 +111,7 @@ const Skills1 = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-left" data-aos-delay="500">
+                <div data-aos="fade-left" data-aos-delay="800">
                     <div className='bg-[#16243e]  hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <SiMysql className='w-[4rem] h-[4.5rem] mx-auto text-[#3e7acf]' />
@@ -122,7 +122,7 @@ const Skills1 = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-left" data-aos-delay="500">
+                <div data-aos="fade-left" data-aos-delay="900">
                     <div className='bg-[#16243e]  hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <FaGitAlt className='w-[4rem] h-[4.5rem] mx-auto text-orange-700' />
