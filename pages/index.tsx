@@ -6,9 +6,11 @@ import Services from '@/Components/Services';
 import Skills from '@/Components/Skills';
 import Projects from '@/Components/Projects';
 import Footer from '@/Components/Footer';
+import Skills1 from '@/Components/Skills1';
 import React, { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 
 
 const HomePage = () => {
@@ -60,7 +62,7 @@ const HomePage = () => {
 
         <div className='relative z-[30]'>
           {/* <About /> */}
-          <Skills />
+          <Skills1 />
           <Projects />
           <Services />
           <Footer />
