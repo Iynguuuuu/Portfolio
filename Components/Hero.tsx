@@ -37,7 +37,7 @@ const Hero = () => {
                             rel="noopener noreferrer"
                         >
                             <button className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] 
-                                            text-[18px] font-bold uppercase bg-violet-300  text-black flex items-center space-x-2 '>
+                                            text-[18px] font-bold uppercase bg-violet-300 rounded-3xl  text-black flex items-center space-x-2 '>
                                 <p>Download CV</p>
                                 <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
                             </button>
