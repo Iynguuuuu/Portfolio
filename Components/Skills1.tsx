@@ -15,7 +15,9 @@ import React from 'react'
 
 const Skills1 = () => {
     return (
-        <div className='bg-[#090f18] pt-[4rem] md:pt-[8rem] pb-[5rem]'>
+        <section id='Skill'>
+
+<div className='bg-[#090f18] pt-[4rem] md:pt-[8rem] pb-[5rem]'>
             <p className='heading'>
                 Technical <span className='text-yellow-400'>Skills</span>
             </p>
@@ -136,6 +138,9 @@ const Skills1 = () => {
             </div>
 
         </div>
+
+        </section>
+        
     )
 }
 

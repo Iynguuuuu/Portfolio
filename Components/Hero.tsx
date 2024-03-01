@@ -11,7 +11,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <div className='h-[87.5vh] bg-[#090f18]   mt-[12vh]  bg-cover bg-center'> {/*bg-[url(/images/bg.jpg)]*/}
+        <section id='Home' className=''>
+            <div className='h-[100vh] bg-[#090f18]   mt-[12vh]  bg-cover bg-center'> {/*bg-[url(/images/bg.jpg)]*/}
             <Particle />
             <div className='w-[90%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
                 <div>
@@ -52,6 +53,8 @@ const Hero = () => {
                 </div>
             </div>
         </div>
+        </section>
+        
     );
 }
 
