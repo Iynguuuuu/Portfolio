@@ -37,7 +37,7 @@ const Projects = () => {
                         <div className='text-center p-[1rem]'>
                             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
                                 w-[300px] h-[200px] md:h-[300px] mx-auto '>
-                                <Image src="/images/P1.jpg" alt="Portfolio" layout='fill' className='object-contain fixed' />
+                                <Image src="/images/Port.jpg" alt="Portfolio" layout='fill' className='object-contain fixed' />
                             </div>
                             <h1 className='text-[20px] mt:text-[10px] mt-[5px] mb-[5px]'>
                                 Portfolio <br /> Feb 2024
