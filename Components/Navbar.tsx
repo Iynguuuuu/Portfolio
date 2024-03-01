@@ -13,7 +13,7 @@ const Navbar = ({ openNav }: Props) => {
                 <h1 className='flex-[0.6]  text-violet-300 text-[60px] font-bold'>
                     <RiCodeSSlashFill />
                 </h1>
-               <a href="#Home"><div className='nav-link'>HOME</div></a>
+                <a href="#Home"><div className='nav-link'>HOME</div></a>
                 <a href="#Skill"><div className='nav-link'>SKILLS</div></a>
                 <a href="#Project"><div className='nav-link'>PROJECTS</div></a>
                 <a href="#Service"><div className='nav-link'>SERVICES</div></a>

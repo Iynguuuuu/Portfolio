@@ -12,17 +12,17 @@ const MobileNav = ({ nav, closeNav }: Props) => {
 
     return (
 
-        <div className={`fixed ${navAnimation} bg-[#090f18] transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[1000000] `}>
-            <div className='w-[100vh] h-[100vh] flex flex-col items-center justify-center'>
-                <div className='nav-link-mobile'>Home</div>
-                <div className='nav-link-mobile'>SKILLS</div>
-                <div className='nav-link-mobile'>SERVICES</div>
-                <div className='nav-link-mobile'>PROJECTS</div>
-                <div className='nav-link-mobile'>CONTACT</div>
+        <div className={`fixed ${navAnimation} bg-[#090f18] transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[1000000] opacity-80`}>
+            <div className='w-[48vh] mr-[18vh] h-[100vh] flex flex-col items-center justify-center'>
+                <a href="#Home"><div className='nav-link-mobile'>HOME</div></a>
+                <a href="#Skill"><div className='nav-link-mobile'>SKILLS</div></a>
+                <a href="#Project"><div className='nav-link-mobile'>PROJECTS</div></a>
+                <a href="#Service"><div className='nav-link-mobile'>SERVICES</div></a>
+                <a href="#Contact"><div className='nav-link-mobile'>CONTACT</div></a>
             </div>
             <div
                 onClick={closeNav}
-                className='absolute z-[100000000] cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-yellow-400'>
+                className='absolute z-[100000000] cursor-pointer top-[1rem] right-[1rem] w-[3rem] h-[3rem] font-semibold text-yellow-400'>
                 <XMarkIcon />
             </div>
         </div>
