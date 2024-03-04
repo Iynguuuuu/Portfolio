@@ -3,6 +3,7 @@ import Particle from './Particle';
 import TextEffect from './TextEffect';
 import Image from 'next/image';
 import { ArrowDownTrayIcon } from '@heroicons/react/16/solid';
+import { SiLinktree } from "react-icons/si";
 import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -27,8 +28,9 @@ const Hero = () => {
                         </p>
                         <div className='mt-[1rem] flex items-stretch space-x-5  '>
                             <a href="https://github.com/Iynguuuuu"> <IoLogoGithub className='w-[3rem] h-[3rem] text-white ' /></a>
-                            <a href="https://lk.linkedin.com/in/iynkaran-pavanantham-b54991263">
-                                <FaLinkedin className='w-[3rem] h-[3rem] text-white' /></a>
+                            <a href="https://lk.linkedin.com/in/iynkaran-pavanantham-b54991263"><FaLinkedin className='w-[3rem] h-[3rem] text-white' /></a>
+                            <a href="https://linktr.ee/iynguuuuu?utm_source=linktree_profile_share&ltsid=c030f32c-1a6a-4306-b0e7-9a086ebe75ee"> <SiLinktree className='w-[3rem] h-[3rem] text-white ' /></a>
+
                         </div>
                         <div className='mt-[2rem] flex-col space-x-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-6'>
                             <a
