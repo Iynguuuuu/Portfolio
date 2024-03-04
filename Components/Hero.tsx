@@ -32,7 +32,7 @@ const Hero = () => {
                             <a href="https://linktr.ee/iynguuuuu?utm_source=linktree_profile_share&ltsid=c030f32c-1a6a-4306-b0e7-9a086ebe75ee"> <SiLinktree className='w-[3rem] h-[3rem] text-white ' /></a>
 
                         </div>
-                        <div className='mt-[2rem] flex-col space-x-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-6'>
+                        {/* <div className='mt-[2rem] flex-col space-x-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-6'>
                             <a
                                 href="./CV.pdf"
                                 download="CV Pdf"
@@ -46,7 +46,7 @@ const Hero = () => {
                                 </button>
                             </a>
 
-                        </div>
+                        </div> */}
 
                     </div>
                     <div className='ml-[12vh] mb-[5vh]'>
