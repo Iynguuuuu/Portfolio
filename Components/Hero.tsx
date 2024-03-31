@@ -6,6 +6,7 @@ import { ArrowDownTrayIcon } from '@heroicons/react/16/solid';
 import { SiLinktree } from "react-icons/si";
 import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 // import { PiHandWavingLight } from "react-icons/pi";
 
@@ -27,10 +28,10 @@ const Hero = () => {
                             Experienced in collaborative projects and eager to contribute to innovative projects in the field.
                         </p>
                         <div className='mt-[1rem] flex items-stretch space-x-5  '>
-                            <a href="https://github.com/Iynguuuuu"> <IoLogoGithub className='w-[3rem] h-[3rem] text-white ' /></a>
-                            <a href="https://lk.linkedin.com/in/iynkaran-pavanantham-b54991263"><FaLinkedin className='w-[3rem] h-[3rem] text-white' /></a>
-                            <a href="https://linktr.ee/iynguuuuu?utm_source=linktree_profile_share&ltsid=c030f32c-1a6a-4306-b0e7-9a086ebe75ee"> <SiLinktree className='w-[3rem] h-[3rem] text-white ' /></a>
-
+                            <a href="https://github.com/Iynguuuuu"> <IoLogoGithub className='w-[3rem] h-[3rem] text-white hover:scale-110 transform transition-all duration-300 hover:-rotate-6 ' /></a>
+                            <a href="https://lk.linkedin.com/in/iynkaran-pavanantham-b54991263"><FaLinkedin className='w-[3rem] h-[3rem] text-white hover:scale-110 transform transition-all duration-300 hover:-rotate-6 ' /></a>
+                            <a href="https://linktr.ee/iynguuuuu?utm_source=linktree_profile_share&ltsid=c030f32c-1a6a-4306-b0e7-9a086ebe75ee"> <SiLinktree className='w-[3rem] h-[3rem] text-white hover:scale-110 transform transition-all duration-300 hover:-rotate-6  ' /></a>
+                            <a href="https://www.instagram.com/iyng._.uuuuu?igsh=MTczamF3cm1jcm42bg%3D%3D&utm_source=qr"> <AiFillInstagram className='w-[3rem] h-[3rem] text-white hover:scale-110 transform transition-all duration-300 hover:-rotate-6 ' /></a>
                         </div>
                         {/* <div className='mt-[2rem] flex-col space-x-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-6'>
                             <a

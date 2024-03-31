@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
+import { IoLogoGithub } from "react-icons/io";
+import { IoGlobeOutline } from "react-icons/io5";
 
 const Projects = () => {
     return (
@@ -29,6 +31,10 @@ const Projects = () => {
                                 Used: <span className='text-decoration-line: underline'>React JS, TailWind CSS, TypeScript, <br />
                                     Next JS</span>
                             </p>
+                            <div className='mt-[1rem] flex items-stretch space-x-5 ml-[7rem]'>
+                                <a href="https://github.com/Iynguuuuu/Flexlight"> <IoLogoGithub className='w-[2rem] h-[2rem] text-white ' /></a>
+                                <a href="https://flexlight.vercel.app/"> <IoGlobeOutline className='w-[2rem] h-[2rem] text-white ' /></a>
+                            </div>
 
                         </div>
                     </div>
@@ -43,10 +49,14 @@ const Projects = () => {
                                 Portfolio <br /> Feb 2024
                             </h1>
                             <p className='text-[15px] text-[#d3d2d2] font-normal opacity-70'>
-                                Created my website Portfolio. <br />
+                                Created my Portfolio website . <br />
                                 Used: <span className='text-decoration-line: underline'>React JS, TailWind CSS, TypeScript, <br />
                                     Next JS</span>
                             </p>
+                            <div className='mt-[1rem] flex items-stretch space-x-5 ml-[7rem]'>
+                                <a href="https://github.com/Iynguuuuu/Portfolio"> <IoLogoGithub className='w-[2rem] h-[2rem] text-white ' /></a>
+                                <a href="https://portfolio-tau-seven-70.vercel.app/"> <IoGlobeOutline className='w-[2rem] h-[2rem] text-white ' /></a>
+                            </div>
                         </div>
                     </div>
 
@@ -64,6 +74,10 @@ const Projects = () => {
                                 Created login page for Software Developement Group Project website. <br />
                                 Used: <span className='text-decoration-line: underline'>React JS, CSS, JavaScript</span>
                             </p>
+                            <div className='mt-[1rem] flex items-stretch space-x-5 ml-[9rem]'>
+                                <a href="https://bms-enzh.onrender.com/"> <IoGlobeOutline className='w-[2rem] h-[2rem] text-white ' /></a>
+                            </div>
+
 
                         </div>
                     </div>
@@ -81,6 +95,11 @@ const Projects = () => {
                                 Created Home page and Feedback page for Web Developement group Coursework, static website. <br />
                                 Used: <span className='text-decoration-line: underline'>HTML, CSS, JavaScript</span>
                             </p>
+                            <div className='mt-[1rem] flex items-stretch space-x-5 ml-[7rem]'>
+                                <a href="https://github.com/Iynguuuuu/Web."> <IoLogoGithub className='w-[2rem] h-[2rem] text-white ' /></a>
+                                <a href="https://iynguuuuu.github.io/Web./Homepage.html"> <IoGlobeOutline className='w-[2rem] h-[2rem] text-white ' /></a>
+                            </div>
+
 
                         </div>
                     </div>
