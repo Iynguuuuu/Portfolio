@@ -18,7 +18,7 @@ const Services = () => {
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                             <CodeBracketSquareIcon className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
                             <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem] capitalize'>
-                                Frontend
+                                Full-Stack
                             </h1>
                             {/* <p className='text-[15px] text-[#d3d2d2] font-normal'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
