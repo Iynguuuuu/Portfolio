@@ -1,5 +1,9 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { DevicePhoneMobileIcon, EnvelopeIcon } from "@heroicons/react/16/solid";
+import { SiLinktree } from "react-icons/si";
+import { IoLogoGithub } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 import React from 'react'
 
 const Footer = () => {
@@ -42,7 +46,17 @@ const Footer = () => {
                             </div>
                         </div>
 
+
+
+
                     </div>
+
+                    <div className='mt-[2rem]  flex items-stretch space-x-[4rem]  '>
+                        <a href="https://lk.linkedin.com/in/iynkaran-pavanantham-b54991263"><FaLinkedin className='w-[2rem] h-[2rem] text-white hover:scale-110 transform transition-all duration-300 hover:-rotate-6 ' /></a>
+                        <a href="https://linktr.ee/iynguuuuu?utm_source=linktree_profile_share&ltsid=c030f32c-1a6a-4306-b0e7-9a086ebe75ee"> <SiLinktree className='w-[2rem] h-[2rem] text-white hover:scale-110 transform transition-all duration-300 hover:-rotate-6  ' /></a>
+                        <a href="https://www.instagram.com/iyng._.uuuuu?igsh=MTczamF3cm1jcm42bg%3D%3D&utm_source=qr"> <AiFillInstagram className='w-[2rem] h-[2rem] text-white hover:scale-110 transform transition-all duration-300 hover:-rotate-6 ' /></a>
+                    </div>
+
 
                 </div>
 
