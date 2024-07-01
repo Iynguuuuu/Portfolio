@@ -34,7 +34,7 @@ const Hero = () => {
                             <a href="https://www.instagram.com/iyng._.uuuuu?igsh=MTczamF3cm1jcm42bg%3D%3D&utm_source=qr"> <AiFillInstagram className='w-[3rem] h-[3rem] text-white hover:scale-110 transform transition-all duration-300 hover:-rotate-6 ' /></a>
                         </div>
 
-                        <div className='mt-[2rem] flex-col space-x-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-6'>
+                        {/* <div className='mt-[2rem] flex-col space-x-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-6'>
                             <a
                                 href="./CV.pdf"
                                 download="CV"
@@ -48,7 +48,7 @@ const Hero = () => {
                                 </button>
                             </a>
 
-                        </div>
+                        </div> */}
 
                     </div>
                     <div className='ml-[12vh] mb-[5vh]'>
