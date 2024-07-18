@@ -16,8 +16,31 @@ const Projects = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] 
                             mx-auto items-center gap-[3rem] mt-4rem text-white pt-[3rem] '>
 
-
                     <div data-aos="flip-up" data-aos-delay="100">
+                        <div className='text-center p-[1rem]'>
+
+                            <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
+                                w-[300px] h-[200px] md:h-[300px] mx-auto '>
+                                <Image src="/images/feasto.jpg" alt="Portfolio" layout='fill' className='object-contain fixed' />
+                            </div>
+                            <h1 className='text-[20px] mt:text-[10px] mt-[5px] mb-[5px]'>
+                                Feasto <br />
+                            </h1>
+                            <p className='text-[15px] text-[#d3d2d2] font-normal opacity-70'>
+                            This project replicates the core design and functionality of Feasto's original interface, providing a seamless user experience across different devices. <br />                               
+                            Used: <span className='text-decoration-line: underline font-bold'>React JS, TypeScript React Slick, TailWind CSS,  <br />
+                                </span>
+                            </p>
+                            <div className='mt-[1rem] flex items-stretch space-x-5 ml-[9rem]'>
+                                <a href="https://github.com/Iynguuuuu/Feasto"> <IoLogoGithub className='w-[2rem] h-[2rem] text-white ' /></a>
+                                <a href="https://feasto.vercel.app/"> <IoGlobeOutline className='w-[2rem] h-[2rem] text-white ' /></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div data-aos="flip-up" data-aos-delay="300">
                         <div className='text-center p-[1rem]'>
 
                             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
@@ -28,9 +51,9 @@ const Projects = () => {
                                 WeatherWave <br />
                             </h1>
                             <p className='text-[15px] text-[#d3d2d2] font-normal opacity-70'>
-                            Weatherwave will be getting temperature, humidity,feels like, sunrise, sunset, hourly, and daily forecast. For input, there are some quick links on top along with a text box for searching a city and also a current location-based search. <br />
+                                Weatherwave will be getting temperature, humidity,feels like, sunrise, sunset, hourly, and daily forecast. For input, there are some quick links on top along with a text box for searching a city and also a current location-based search. <br />
                                 Used: <span className='text-decoration-line: underline font-bold'>React JS, TailWind CSS, OpenWeatherMap for API  <br />
-                                    </span>
+                                </span>
                             </p>
                             <div className='mt-[1rem] flex items-stretch space-x-5 ml-[9rem]'>
                                 <a href="https://github.com/Iynguuuuu/Weatherwave"> <IoLogoGithub className='w-[2rem] h-[2rem] text-white ' /></a>
@@ -40,7 +63,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div data-aos="flip-up" data-aos-delay="300">
+                    <div data-aos="flip-up" data-aos-delay="500">
                         <div className='text-center p-[1rem]'>
 
                             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
@@ -64,7 +87,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div data-aos="flip-up" data-aos-delay="500">
+                    <div data-aos="flip-up" data-aos-delay="700">
                         <div className='text-center p-[1rem]'>
 
                             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
@@ -86,7 +109,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div data-aos="flip-up" data-aos-delay="700">
+                    <div data-aos="flip-up" data-aos-delay="900">
                         <div className='text-center p-[1rem]'>
                             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
                                 w-[300px] h-[200px] md:h-[300px] mx-auto '>
@@ -110,7 +133,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div data-aos="flip-up" data-aos-delay="900">
+                    <div data-aos="flip-up" data-aos-delay="1100">
                         <div className='text-center p-[1rem]'>
                             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
                                 w-[300px] h-[200px] md:h-[300px] mx-auto '>
@@ -131,7 +154,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div data-aos="flip-up" data-aos-delay="1100">
+                    <div data-aos="flip-up" data-aos-delay="1300">
                         <div className='text-center p-[1rem]'>
 
                             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
@@ -153,7 +176,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div data-aos="flip-up" data-aos-delay="1300">
+                    <div data-aos="flip-up" data-aos-delay="1500">
                         <div className='text-center p-[1rem]'>
                             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
                                 w-[300px] h-[200px] md:h-[300px] mx-auto '>
