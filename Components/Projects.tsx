@@ -16,7 +16,7 @@ const Projects = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] 
                             mx-auto items-center gap-[3rem] mt-4rem text-white pt-[3rem] '>
 
-                    <div data-aos="flip-up" data-aos-delay="100">
+                    {/* <div data-aos="flip-up" data-aos-delay="100">
                         <div className='text-center p-[1rem]'>
 
                             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
@@ -37,7 +37,7 @@ const Projects = () => {
                             </div>
 
                         </div>
-                    </div>
+                    </div> */}
 
 
                     <div data-aos="flip-up" data-aos-delay="300">
